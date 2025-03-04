@@ -2,5 +2,7 @@
 using namespace std;
 
 int main() {
-cout << "Hello world!" << endl;
+char str[100];
+cin.getline(str, sizeof(str));
+cout << "Hello world from " << str << endl;
 }
