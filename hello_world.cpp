@@ -1,8 +1,9 @@
 #include <iostream>
-using namespace std;
+#include <string>
 
 int main() {
-char str[100];
-cin.getline(str, sizeof(str));
-cout << "Hello world from " << str << endl;
+     std::string username;
+     std::cin >> username;
+     std::cout << "Hello world from " << username << std::endl;
+     return 0;
 }
