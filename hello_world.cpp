@@ -1,11 +1,11 @@
-// Подключение необходимых файлов
+// Essential includes
 #include <iostream>
 #include <string>
 
 int main() {
-    // Создание строки и запрос ввода от пользователя
+    // Create string and request text from usetr
     std::string name;
     std::cin >> name;
-    // Вывод сообщения на экран
+    // Print message on display
     std::cout << "Hello world from " << name << std::endl;
 }
