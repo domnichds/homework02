@@ -2,7 +2,9 @@
 #include <iostream>
 #include <string>
 
-int main() {
+int 
+main() 
+{
     // Create string and request text from usetr
     std::string name;
     std::cin >> name;
